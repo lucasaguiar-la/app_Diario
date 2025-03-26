@@ -1,0 +1,24 @@
+import 'package:flutter/material.dart';
+//import 'screens/login_screen.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'App Diário',
+      theme: ThemeData(primarySwatch: Colors.blue),
+      initialRoute: '/',
+      routes: {
+        //'/': (context) => LoginScreen(),
+        //'/home': (context) => HomeScreen(),
+        //'/addPlan': (context) => AddPlanScreen(),
+      },
+    );
+  }
+}
