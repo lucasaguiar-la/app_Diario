@@ -1,3 +1,4 @@
+import 'package:app_diario/screen/login_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,7 +10,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
-    throw UnimplementedError();
+    return MaterialApp(
+      title: 'ProMeta',
+      theme: ThemeData(
+        primarySwatch: Colors.teal,
+        visualDensity: VisualDensity.adaptivePlatformDensity,
+      ),
+      home: LoginScreen(),
+    );
   }
 }
