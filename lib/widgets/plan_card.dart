@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/plan.dart';
 import '../models/activity.dart';
-import '../screens/plan_details_screen.dart';
 
 class PlanCard extends StatefulWidget {
   final Plan plan;
@@ -41,7 +40,7 @@ class _PlanCardState extends State<PlanCard> {
                 });
               },
             ),
-            onTap: () {
+            /*onTap: () {
               Navigator.of(context)
                   .push(
                     MaterialPageRoute(
@@ -52,7 +51,7 @@ class _PlanCardState extends State<PlanCard> {
                   .then((_) {
                     widget.onUpdate();
                   });
-            },
+            },*/
           ),
 
           AnimatedCrossFade(
