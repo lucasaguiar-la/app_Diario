@@ -1,4 +1,4 @@
-import 'package:app_diario/screens/login_screen.dart';
+import 'package:app_diario/screens/plans_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.teal,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: LoginScreen(),
+      home: PlansScreen(),
     );
   }
 }

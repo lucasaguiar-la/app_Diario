@@ -65,9 +65,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 );
 
                 Navigator.of(context).pushReplacement(
-                  MaterialPageRoute(
-                    builder: (context) => PlansScreen(user: mockUser),
-                  ),
+                  MaterialPageRoute(builder: (context) => PlansScreen()),
                 );
               },
               child: Container(

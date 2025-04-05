@@ -1,14 +1,12 @@
 import 'package:app_diario/widgets/plan_card.dart';
 import 'package:flutter/material.dart';
-import '../models/user.dart';
+//import '../models/user.dart';
 import '../models/plan.dart';
 import '../models/activity.dart';
 import 'plan_form_screen.dart';
 
 class PlansScreen extends StatefulWidget {
-  final User user;
-
-  const PlansScreen({super.key, required this.user});
+  const PlansScreen({super.key});
 
   @override
   // ignore: library_private_types_in_public_api
