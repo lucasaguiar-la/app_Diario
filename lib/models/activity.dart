@@ -1,7 +1,7 @@
 class Activity {
   final String id;
   final String title;
-  final bool completionStatus;
+  bool completionStatus;
 
   Activity({
     required this.id,
